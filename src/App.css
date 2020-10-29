@@ -13,5 +13,19 @@ html {
   position: relative;
   height: 800px;
   border-radius: 20px;
+  width: 80%;
+  max-width: 500px;
   overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+/* Hide scrollbar for Chrome/Safari/Opera*/
+.app_videos::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE/Edge/Firefox*/
+.app_videos {
+  -ms-overflow-style: none; /*IE/Edge*/
+  scrollbar-width: none; /*Firefox*/
 }
