@@ -21,7 +21,7 @@ function VideoFooter() {
         </div> 
       </div>
       <img
-        clasName="videoFooter_record"
+        className="videoFooter_record"
         src="https://static.thenounproject.com/png/934821-200.png"
         alt=""
       />
