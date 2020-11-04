@@ -29,8 +29,6 @@ function Video() {
     
       <VideoFooter />
       <VideoSidebar />
-      {/* Video Footer */}
-      {/* Video*/}
     </div>
   )
 }
